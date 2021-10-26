@@ -42,7 +42,10 @@ base/
 
 // 2. Import de la base
 @import
+    'base/reset',
+    'base/normalize',
     'base/base';
+
 
 // 3. Import des layout
   @import
@@ -56,7 +59,9 @@ base/
 // 4. Import des components
 @import
     
+    'components/brand',
     'components/navbar',
+    'components/form-contact',
     'components/button';
    
     
