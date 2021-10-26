@@ -14,14 +14,21 @@ function Navbar(props) {
                     </li>
                    
                     <li className="navbar__ul-li">
-                        <Link to="/Login" className="nav__link">Login</Link>
+                        <Link to="/Login" className="nav__link"><i class='bx bx-user'></i>Login</Link>
                     </li>
                    
                     <li className="navbar__ul-li">
                         <Link to="/Register" className="nav__link">Register</Link>
                     </li>
-                   
-              
+                    <li className="navbar__ul-li">
+                        <Link to="/Add_product" className="nav__link">Add_product</Link>
+                    </li>
+                    <li className="navbar__ul-li">
+                        <Link to="/Admin" className="nav__link">Admin</Link>
+                    </li>
+                    <li className="navbar__ul-li">
+                        <Link to="/Update" className="nav__link">Update</Link>
+                    </li>
                 </ul>
             </nav>   
     
