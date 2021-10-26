@@ -1,0 +1,11 @@
+.navbar {
+    &__ul{
+
+        display: flex;
+
+        &-li {
+            margin-left: 3rem;
+            padding-top: 1rem;
+        }
+    }
+}
